@@ -1,0 +1,13 @@
+//check number is even or Odd and number is postive ,negatie or zero
+let num = 5;
+if (num % 2 === 0) {
+    console.log("Even");
+    console.log("postive");
+}
+else if (num === 0) { 
+    console.log("zero");
+}
+else {
+    console.log("Odd");
+    console.log("negative");
+}
